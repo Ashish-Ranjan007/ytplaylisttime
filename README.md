@@ -29,16 +29,16 @@ This Python script allows users to retrieve various details about a YouTube play
    ```
 4. Run the script from the command line with the following command:
 
-   ```plaintext
-   python main.py <playlist_url>
+   ```bash
+   $ python main.py <playlist_url>
    ```
 
    Replace `<playlist_url>` with the URL of the YouTube playlist you want to analyze.
 
 ## Example
 
-```plaintext
-python main.py https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
+```bash
+$ python main.py https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
 ```
 
 ## Shell Script (Linux)
@@ -48,14 +48,14 @@ python main.py https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
 - Also make sure to add the path to main.py in ytplaylisttime.sh file.
 - Run the script from the terminal with the following command:
 
-   ```plaintext
-   ./ytplaylisttime.sh <playlist_url>
+   ```bash
+   $ ./ytplaylisttime.sh <playlist_url>
    ```
 
 ## Example
 
-```plaintext
-./ytplaylisttime.sh https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
+```bash
+$ ./ytplaylisttime.sh https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
 ```
 
 ## Batch Script (Windows)
@@ -64,29 +64,25 @@ python main.py https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
 - Make sure to add the path to main.py in ytplaylisttime.bat file.
 - Run the script from the command prompt:
 
-   ```plaintext
-   ytplaylisttime.bat <playlist_url>
+   ```powershell
+   > ytplaylisttime.bat <playlist_url>
    ```
 
 ## Example
 
-```plaintext
-.\ytplaylisttime.bat https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
+```powershell
+> .\ytplaylisttime.bat https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
 ```
 
 ## Testing
 - This project includes a test file test_main.py for testing various functionalities.
 - To run the tests, ensure you have pytest installed (pip install pytest).
 - Run the tests by executing pytest from the terminal:
-```plaintext
-py.test
+```bash
+$ py.test
 ```
 
 ## Note
 
 - Ensure that the provided playlist URL is valid and accessible.
-- The script may require a valid YouTube Data API key to access playlist information. Instructions for obtaining an API key can be found in the YouTube Data API documentation.## Example
-
-```plaintext
-./ytplaylisttime.sh https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID
-```
+- The script may require a valid YouTube Data API key to access playlist information. Instructions for obtaining an API key can be found in the YouTube Data API documentation.
